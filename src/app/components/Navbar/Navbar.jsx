@@ -16,13 +16,12 @@ export default function Navbar () {
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            <span className="ml-3 text-xl text-defualtcolor">PageCabite</span>
+            <span className="ml-3 text-xl text-defualtcolor">Syed Ehtisham</span>
           </a>
           <nav className="cursor-pointer user-select-none md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-secondaryColor">First Link</a>
-            <a className="mr-5 hover:text-secondaryColor">Second Link</a>
-            <a className="mr-5 hover:text-secondaryColor">Third Link</a>
-            <a className="mr-5 hover:text-secondaryColor">Fourth Link</a>
+            <a className="mr-5 hover:text-secondaryColor">Home</a>
+            <a className="mr-5 hover:text-secondaryColor">About</a>
+            <a className="mr-5 hover:text-secondaryColor">Contact</a>
           </nav>
           <button className="inline-flex items-center bg-secondaryColor border-0 py-1 px-3 focus:outline-none hover:bg-primaryColor-500 rounded text-base mt-4 md:mt-0">
             Subscribe
