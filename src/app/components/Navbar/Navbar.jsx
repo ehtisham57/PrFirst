@@ -1,3 +1,4 @@
+import Link from "next/link"
 export default function Navbar () { 
     return(
         <>
@@ -19,9 +20,9 @@ export default function Navbar () {
             <span className="ml-3 text-xl text-defualtcolor">Syed Ehtisham</span>
           </a>
           <nav className="cursor-pointer user-select-none md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-            <a className="mr-5 hover:text-secondaryColor">Home</a>
-            <a className="mr-5 hover:text-secondaryColor">About</a>
-            <a className="mr-5 hover:text-secondaryColor">Contact</a>
+            <Link href='/' className="mr-5 hover:text-secondaryColor">Home</Link>
+            <Link href='/about' className="mr-5 hover:text-secondaryColor">About</Link>
+            <Link href='/portfolio' className="mr-5 hover:text-secondaryColor">Portfolio</Link>
           </nav>
           <button className="inline-flex items-center bg-secondaryColor border-0 py-1 px-3 focus:outline-none hover:bg-primaryColor-500 rounded text-base mt-4 md:mt-0">
             Subscribe
